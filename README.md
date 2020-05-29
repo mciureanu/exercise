@@ -1,5 +1,5 @@
 # How to run the project #
-In order to run the project, install *.NET core runtime* and *.net core CLI*, unzip and  and to run this in command line, in the folder of the project:
+In order to run the project, install *.NET core SDK* - https://dotnet.microsoft.com/download. Then run this in command line, in the folder of the project:
 
 **dotnet test**
 
