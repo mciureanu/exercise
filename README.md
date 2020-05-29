@@ -1,6 +1,6 @@
 In order to run the project, install .NET core runtime and .net core CLI, unzip and  and to run this in command line, in the folder of the project:
 
-dotnet test
+--dotnet test--
 
 which will run the tests in IntegrationTests/ProcessManagerTests.cs. My intention was that the tests hopefully are self explanatory, and serves as "evidence that the code does what it's supposed to do".
 
