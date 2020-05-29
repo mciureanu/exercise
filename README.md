@@ -12,9 +12,9 @@ The ProcessManager uses a repository (IProcessRepository interface) and a schedu
 The ability to create new strategies for scheduling (IProcessScheduler) or other repositories implementations (IProcessRepository) ensures Open Closed Principle - the process manager is open for extensions,  but closed for modifications. Possible extensions might include repository implemented in a database to support perhaps a distributed process manager, and different other types of schedulers - waiting queue based schedulers for examples (using a queue where processes will wait until another process is killed).
 
 
-##Assumptions##:
+## Assumptions ##
 - Killing a process means removing it from the repository (we are not interested by processes that are killed)
 
-##Possible improvements##
+## Possible improvements ##
 - Multi-threading support. ProcessManager does not support operations in a multi-threaded. 
 - Better performance in the in-memory repository (using indexes/sorted lists), right now I didn't spend too much time on that.
